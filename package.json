@@ -1,0 +1,16 @@
+{
+  "name": "cocumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cucumber": "./node_modules/.bin/cucumber-js features/ -r steps/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cucumber": "^6.0.5"
+  }
+}
